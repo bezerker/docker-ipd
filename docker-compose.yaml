@@ -1,0 +1,8 @@
+version: '2'
+services:
+  ipd:
+    image: bezerker/docker-ipd
+    container_name: docker-ipd
+    restart: always
+    ports:
+      - "8080:8080"
